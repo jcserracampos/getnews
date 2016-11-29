@@ -1,0 +1,25 @@
+// Place all the styles related to the news controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'constants';
+
+body {
+    font-family: $body-font;
+    padding:10px;
+}
+
+h1,h2,h3,h4 {
+    font-family: $header-font;
+    text-align: center;
+}
+
+h1 {
+    color:$brand-color;
+}
+
+section {
+    h1 {
+        color:$accent-color;
+    }
+}

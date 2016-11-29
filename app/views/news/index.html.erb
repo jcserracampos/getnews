@@ -1,0 +1,11 @@
+<h1>Últimas notícias</h1>
+
+<% @news.each do |news| %>
+<h2><b><%= news.title %></b></h2>
+<br />
+<%= news.description %>
+<br />
+<a href="<%= news.link %>" target="_blank">Ver Mais no Site</a>
+<br />
+Data de atualização: <%= news.created_at %>
+<% end %>

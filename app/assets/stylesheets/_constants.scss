@@ -1,0 +1,4 @@
+$brand-color: rgb(255,0,0);
+$accent-color: darken($brand-color, 10); // That is, 10% darker than the brand-color.
+$body-font: "Helvetica Neue", Arial, sans-serif;
+$header-font: "Segoe UI", "Myriad Pro", $body-font;
